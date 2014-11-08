@@ -295,8 +295,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>
@@ -340,8 +338,8 @@
 									<key>points</key>
 									<array>
 										<array>
-											<real>14.058624267578125</real>
-											<real>11.707061767578125</real>
+											<real>20.542999267578125</real>
+											<real>-11.031219482421875</real>
 										</array>
 										<array>
 											<real>0.875030517578125</real>
@@ -364,16 +362,16 @@
 											<real>33.746124267578125</real>
 										</array>
 										<array>
-											<real>210.80084228515625</real>
-											<real>15.375030517578125</real>
+											<real>210.28131103515625</real>
+											<real>-12.550750732421875</real>
 										</array>
 									</array>
 									<key>polygons</key>
 									<array>
 										<array>
 											<array>
-												<real>210.80084228515625</real>
-												<real>15.375030517578125</real>
+												<real>210.28131103515625</real>
+												<real>-12.550750732421875</real>
 											</array>
 											<array>
 												<real>215.72662353515625</real>
@@ -396,8 +394,8 @@
 												<real>44.152374267578125</real>
 											</array>
 											<array>
-												<real>14.058624267578125</real>
-												<real>11.707061767578125</real>
+												<real>20.542999267578125</real>
+												<real>-11.031219482421875</real>
 											</array>
 										</array>
 									</array>
@@ -475,6 +473,8 @@
 										</array>
 									</dict>
 								</array>
+								<key>selected</key>
+								<true/>
 							</dict>
 						</array>
 						<key>customClass</key>
