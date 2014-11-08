@@ -13,9 +13,11 @@
     CCNode *_catapultArm;
     CCNode *_levelNode;
     CCNode *_contentNode;
+    
     CCNode *_pullbackNode;
     CCNode *_mouseJointNode;
     CCPhysicsJoint *_mouseJoint;
+    
     CCNode *_currentPenguin;
     CCPhysicsJoint *_penguinCatapultJoint;
 }
@@ -24,6 +26,8 @@
 - (void)didLoadFromCCB {
     // tell this scene to accept touches
     self.userInteractionEnabled = TRUE;
+    
+    // load a level
     CCScene *level = [CCBReader loadAsScene:@"Levels/Level1"];
     [_levelNode addChild:level];
     
