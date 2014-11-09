@@ -143,11 +143,11 @@ static const float MIN_SPEED = 5.f;
     [[CCDirector sharedDirector] replaceScene: [CCBReader loadAsScene:@"Gameplay"]];
 }
 
-- (void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair Seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB {
+- (void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB {
     float energy = [pair totalKineticEnergy];
     
     // if energy is large enough, remove the seal
-    if (energy > 1.f) {
+    if (energy > 500.f) {
         [[_physicsNode space] addPostStepBlock:^{
             [self sealRemoved:nodeA];
         } key:nodeA];
